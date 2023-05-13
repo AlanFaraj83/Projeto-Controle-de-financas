@@ -1,9 +1,14 @@
 import React from "react";
+import * as C from "./styles";
 
 const Header = () => {
     return (
-        <div>Header</div>
-    )
-}
+        <C.Container>
+            <C.Header>
+                <C.Title>Sitema Controle Financeiro</C.Title>
+            </C.Header>
+        </C.Container>
+    );
+};
 
-export default Header
+export default Header;

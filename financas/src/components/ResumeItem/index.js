@@ -1,9 +1,9 @@
 import React from "react";
 
-const index = () => {
+const ResumeItem = () => {
     return (
-        <div>index</div>
+        <div>ResumeItem</div>
     )
 }
 
-export default index;
+export default ResumeItem;

@@ -39,4 +39,8 @@ export const Header = styled.header`
         height: 25px;
     }
 
-`
+`;
+
+export const HeaderTitle = styled.p`
+    font-size: 20px;
+`;

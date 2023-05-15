@@ -13,4 +13,8 @@ export const Container = styled.div`
         width:20%
     }
 
+    p {
+        font-size:12px;
+    }
+
 `;

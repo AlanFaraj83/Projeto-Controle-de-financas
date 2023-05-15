@@ -14,7 +14,11 @@ export const Container = styled.div`
     }
 
     p {
-        font-size:12px;
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 20px;
     }
 
 `;

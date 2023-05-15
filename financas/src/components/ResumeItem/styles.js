@@ -34,4 +34,9 @@ export const Header = styled.header`
     width: 100%;
     gap: 10px;
 
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+
 `

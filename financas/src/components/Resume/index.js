@@ -13,8 +13,8 @@ const Resume = () => {
     return (
         <C.Container>
             <ResumeItem title="Entradas" icon={FaRegArrowAltCircleUp} />
-            <ResumeItem />
-            <ResumeItem />
+            <ResumeItem title="Saídas" icon={FaRegArrowAltCircleDown}/>
+            <ResumeItem title="Total" icon={FaDollarSign}/>
         </C.Container>
     )
 }

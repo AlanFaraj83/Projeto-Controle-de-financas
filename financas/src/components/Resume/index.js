@@ -12,7 +12,7 @@ import {
 const Resume = () => {
     return (
         <C.Container>
-            <ResumeItem icon={FaRegArrowAltCircleUp} />
+            <ResumeItem title="Entradas" icon={FaRegArrowAltCircleUp} />
             <ResumeItem />
             <ResumeItem />
         </C.Container>

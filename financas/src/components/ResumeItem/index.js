@@ -4,7 +4,11 @@ import * as C from "./styles";
 
 const ResumeItem = () => {
     return (
-        <div>ResumeItem</div>
+        <C.Container>
+            <C.Header>
+                <C.HeaderTitle>teste</C.HeaderTitle>
+            </C.Header>
+        </C.Container>
     )
 }
 

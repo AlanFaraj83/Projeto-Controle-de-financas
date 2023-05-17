@@ -31,4 +31,24 @@ export const Input = styled.input`
     padding: 5px 10px;
     font-size: 15px;
     border: 1px solid #ccc;
-`
+`;
+
+export const RadioGroup = styled.div`
+    display: flex;
+    align-items: center;
+
+    input {
+        margin-left: 20px;
+        accent-color: black;
+        margin-top: 0;
+    }
+`;
+
+export const Button = styled.button`
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+`;

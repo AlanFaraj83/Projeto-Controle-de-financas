@@ -7,10 +7,10 @@ export const Container = styled.div`
     background-color: #fff;
     border-radius: 5px;
     padding: 5px 15px;
-    width:30%
+    width:30%;
 
     @media (max-width: 750px) {
-        width:20%
+        width:20%;
     }
 
     p {
@@ -24,7 +24,7 @@ export const Container = styled.div`
     svg {
         display: none;
     }
-
+  }
 `;
 
 export const Header = styled.header`

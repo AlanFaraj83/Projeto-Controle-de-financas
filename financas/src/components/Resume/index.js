@@ -3,10 +3,12 @@ import ResumeItem from "../ResumeItem";
 import * as C from "./styles"
 
 import {
-    FaRegArrowAltCircleUp,
-    FaRegArrowAltCircleDown,
-    FaDollarSign,
+    FaRegArrowAltCircleUp, 
+    FaRegArrowAltCircleDown, 
+    FaDollarSign, 
 } from "react-icons/fa";
+
+
 
 
 

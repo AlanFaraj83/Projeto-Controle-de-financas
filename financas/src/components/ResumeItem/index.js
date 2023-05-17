@@ -11,7 +11,7 @@ const ResumeItem = ({title, Icon, value }) => {
             </C.Header>
             <C.Total>{value}</C.Total>
         </C.Container>
-    )
-}
+    );
+};
 
 export default ResumeItem;

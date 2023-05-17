@@ -16,4 +16,9 @@ export const Container = styled.div`
         display: grid;
     }
 
-`
+`;
+
+export const InputContent = styled.div`
+    display: flex;
+    flex-direction: column;
+`;

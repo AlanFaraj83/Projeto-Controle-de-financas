@@ -46,10 +46,18 @@ export const RadioGroup = styled.div`
 `;
 
 export const Button = styled.button`
+    margin-left:10px;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: white;
     background-color: teal;
+
+   &:hover {
+        background-color: blue;
+   }
+        
+    
 `;
+

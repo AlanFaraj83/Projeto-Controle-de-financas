@@ -54,7 +54,7 @@ export const RadioGroup = styled.div`
 `;
 
 export const Button = styled.button`
-    margin-left:10px;
+    margin-left:12px;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;

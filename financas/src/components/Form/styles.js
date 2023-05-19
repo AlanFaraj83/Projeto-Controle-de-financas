@@ -59,7 +59,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: darkblack;
     background-color: yellow;
 
    &:hover {

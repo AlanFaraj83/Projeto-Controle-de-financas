@@ -8,6 +8,9 @@ import GlobalStyle from "./styles/global";
 
 const App = () => {
     const data = localStorage.getItem("transactions");
+    const [transactionsList, setTransactions] = useState(
+      data ? JSON.parse(data) : []
+    );
 
 
 

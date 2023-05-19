@@ -60,6 +60,7 @@ export const Button = styled.button`
     border-radius: 5px;
     cursor: pointer;
     color: darkblack;
+    font-weight: bold;
     background-color: yellow;
 
    &:hover {

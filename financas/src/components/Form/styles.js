@@ -42,7 +42,15 @@ export const RadioGroup = styled.div`
         margin-right:5px;
         accent-color: black;
         margin-top: 0;
+        
+
+        &:hover {
+            cursor:pointer;
+            accent-color: blue;
+        }
     }
+
+   
 `;
 
 export const Button = styled.button`

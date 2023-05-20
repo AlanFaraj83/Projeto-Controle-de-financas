@@ -12,7 +12,7 @@ import {
 
 
 
-const Resume = () => {
+const Resume = ({ income, expense, total}) => {
     return (
         <C.Container>
             <ResumeItem title="Entradas" Icon={FaRegArrowAltCircleUp} value= "1000" />

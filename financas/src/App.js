@@ -33,7 +33,7 @@ const App = () => {
     }, [transactionsList]);
 
     const handleAdd = (transaction) => {
-
+        const newArrayTransactions = [...transactionsList, transaction];
     };
 
 

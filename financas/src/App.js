@@ -34,6 +34,8 @@ const App = () => {
 
     const handleAdd = (transaction) => {
         const newArrayTransactions = [...transactionsList, transaction];
+
+        setTransactions(newArrayTransactions);
     };
 
 

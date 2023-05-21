@@ -8,7 +8,7 @@ import GlobalStyle from "./styles/global";
 
 const App = () => {
     const data = localStorage.getItem("transactions");
-    const [transactionsList, setTransactions] = useState(
+    const [transactionsList, setTransactionsList] = useState(
       data ? JSON.parse(data) : []
     );
 
@@ -35,7 +35,7 @@ const App = () => {
     const handleAdd = (transaction) => {
         const newArrayTransactions = [...transactionsList, transaction];
 
-        setTransactions(newArrayTransactions);
+        setTransactionsList(newArrayTransactions);
 
         localStorage.setItem("transactions", JSON.stringify(newArrayTransactions));
     };
@@ -46,7 +46,7 @@ const App = () => {
         <>
           <Header />
           <Resume income={income} expense={expense} total={total} />
-          <Form handleAdd={handleAdd}/> 
+          <Form handleAdd={handleAdd} transactionsList={transactionsList} setTransactionsList={setTransactionsList} /> 
           <GlobalStyle />
         </>  
     

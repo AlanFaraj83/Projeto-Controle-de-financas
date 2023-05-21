@@ -19,7 +19,7 @@ const App = () => {
     useEffect(() => {
       const amountExpense = transactionsList.filter((item) => item.expense).map((transaction) => Number(transaction.amount));
 
-      const amountIncome = transactionsList.filter((item) => !item.expense);
+      const amountIncome = transactionsList.filter((item) => !item.expense).map((transaction) => Number(transaction.amount));
 
       const expense = amountExpense.reduce((acc, cur) => acc + cur, 0).toFixed(2);
       const income = amountIncome.reduce((acc, cur) => acc + cur, 0).toFixed(2);
@@ -29,7 +29,7 @@ const App = () => {
 
       setIncome(`R$ ${income}`);
       setExpense(`R$ ${expense}`);
-      setTotal(`${Number(income) < Number(expense) ? "-" : ""}R${total}`);
+      setTotal(`${Number(income) < Number(expense) ? "-" : ""}R$ ${total}`);
     }, [transactionsList]);
 
     const handleAdd = (transaction) => {

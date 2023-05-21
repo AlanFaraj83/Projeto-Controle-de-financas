@@ -21,9 +21,7 @@ export const Container = styled.div`
         font-size: 20px;
     }
 
-    svg {
-        display: none;
-    }
+    
   }
 `;
 

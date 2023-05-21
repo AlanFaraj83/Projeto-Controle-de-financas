@@ -9,6 +9,7 @@ const Form = () => {
 
     const generateID = () => Math.round(Math.random() * 1000);
 
+
     const handleSave = () => {
         if(!desc || !amount) {
             alert("Informe a descrição e o valor!");
@@ -17,6 +18,13 @@ const Form = () => {
             alert("O valor tem que ser positivo");
             return;
         }
+    };
+
+    const transaction = {
+        id: generateID(),
+        desc: desc,
+        amount: amount,
+        expense: isExpense,
     };
 
 

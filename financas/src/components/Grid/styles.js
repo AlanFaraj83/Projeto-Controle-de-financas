@@ -9,3 +9,18 @@ export const Table = styled.table`
     max-width: 1120px;
     margin: 20px auto;
 `;
+
+export const Thead = styled.thead``;
+
+export const Tbody = styled.tbody``;
+
+export const Tr = styled.tr``;
+
+export const Th = styled.th`
+    text-align: start;
+    border-bottom: inset;
+    paddin-bottom: 5px;
+    text-align: ${(props) => (props.alignCenter ? "center" : "start")};
+    width: ${(props) => (props.width ? props.width + "%" : "auto")};
+
+`;

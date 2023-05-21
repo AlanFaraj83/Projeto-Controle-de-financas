@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Grid from "../Grid";
-
 import * as C from "./styles";
 
 

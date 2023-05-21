@@ -3,7 +3,7 @@ import Grid from "../Grid";
 import * as C from "./styles";
 
 
-const Form = ({ handleAdd }) => {
+const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
     const [desc, setDesc] = useState("");
     const [amount, setAmount] = useState("");
     const [isExpense, setExpense] = useState(false);

@@ -1,7 +1,11 @@
 <h1 align='center'>Projeto Controle de finanças</h1>
 
 <p align="center">
-  <img alt="Finan1"src="https://github.com/AlanFaraj83/Projeto-Controle-de-financas/assets/31050663/b4626131-44fb-43c2-840d-d0749098faa4" width="100%"> 
+  <img alt="Finan1"src="https://github.com/AlanFaraj83/Projeto-Controle-de-financas/assets/31050663/ffe83d66-d8ca-4f0d-b52d-e11bc202e07f" width="100%"> 
+</p>
+
+<p align="center">
+  <img alt="Finan2"src="https://github.com/AlanFaraj83/Projeto-Controle-de-financas/assets/31050663/b4626131-44fb-43c2-840d-d0749098faa4" width="100%"> 
 </p>
 
 <p align="center">
@@ -28,15 +32,23 @@
 
 - [Google Fonts](https://fonts.google.com/)
 
+
+### Para carregar o projeto:
+
+* Entrar na pasta financas
+* Depois colocar codigo yarn start
+* Runs the app in the development mode.\
+* Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 ### <strong><i>Como clonar o projeto:</i></strong>
 
 <p> git clone https://github.com/AlanFaraj83/Projeto-Controle-de-financas.git</p>
 
+## 📝 Licença
 
-### Para carregar o projeto primeiro entrar na pasta do projeto financas e depois colocar o codigo yarn start:
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE] https://github.com/AlanFaraj83/Projeto-Controle-de-financas/blob/main/LICENSE   para mais detalhes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 
 

@@ -24,6 +24,7 @@
   * HTML
   * CSS
   * JavaScript
+  * DOM
   * Node.js
   * React
   * Yarn

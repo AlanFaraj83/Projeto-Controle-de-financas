@@ -29,7 +29,17 @@
 - [Google Fonts](https://fonts.google.com/)
 
 ### <strong><i>Como clonar o projeto:</i></strong>
-<p> git clone </p>
+
+<p> git clone https://github.com/AlanFaraj83/Projeto-Controle-de-financas.git</p>
+
+
+### Para carregar o projeto primeiro entrar na pasta do projeto financas e depois colocar o codigo yarn start:
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
+
 
 
 

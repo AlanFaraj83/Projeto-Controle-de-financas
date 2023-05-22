@@ -16,7 +16,7 @@
 
 ## Descrição do Projeto
 
-<p align="center">Projeto Controle de Finanças feito em Front-end,DOM,Node e React feito em componentes os elementos e assim utilizamos esses elementos para declarar no localStorage para mostrar na pagina o calculo de entradas, saídas e total dos valores. </p>
+<p align="center">Projeto Controle de Finanças feito em Front-end,DOM,Node e React feito em componentes os elementos e assim utilizamos esses elementos para declarar no banco de dados localStorage para mostrar na pagina o calculo de entradas, saídas e total dos valores. </p>
 
 ## Conteúdo do projeto
 
